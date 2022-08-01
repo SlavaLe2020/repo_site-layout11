@@ -225,7 +225,7 @@ ul {
     border: none;
     cursor: pointer;
     background-color: transparent;
-    
+    position: absolute;
 }
 
 .popup-btn span {
@@ -235,7 +235,6 @@ ul {
 }
 
 .info__btn {
-    position: absolute;
     bottom: 0;
     right: 0;
 }
@@ -359,4 +358,21 @@ ul {
 
 .technology {
     margin-bottom: 150px;
+}
+
+.technology__top {
+    background-image: url(../images/tech-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 110vh;
+}
+
+.technology__top-inner {
+    position: relative;
+}
+
+.technology__btn {
+    right: 350px;
+    top: 50vh;
 }
