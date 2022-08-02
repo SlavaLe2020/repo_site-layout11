@@ -365,14 +365,25 @@ ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 110vh;
 }
 
 .technology__top-inner {
+    min-height: 110vh;
     position: relative;
 }
 
 .technology__btn {
     right: 350px;
     top: 50vh;
+}
+
+.technology__top-box {
+    position: absolute;
+    left: 0;
+    bottom: 85px;
+}
+
+.technology__title {
+    max-width: 470px;
+    text-transform: uppercase;
 }
