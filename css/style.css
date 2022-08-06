@@ -447,3 +447,10 @@ img {
 .gallerry-min__img--2 {
     border-radius: 0px 0px 0px 300px;
 }
+
+.gallerry-max {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 300px 469px 391px;
+    grid-template-rows: 340px 270px 270px ;
+}
