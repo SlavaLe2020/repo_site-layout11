@@ -528,3 +528,17 @@ img {
     line-height: 22px;
     opacity: 0.2;
 }
+
+.footer__form-btn {
+    background-color: #fff;
+    padding: 10px 66px;
+    border: none;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+}
